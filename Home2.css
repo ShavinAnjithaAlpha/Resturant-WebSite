@@ -1,0 +1,630 @@
+* {box-sizing: border-box;}
+
+body{
+
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color:rgba(223, 129, 120, 0.932);
+  background-image: url("background.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  color: white;
+  margin-top: 0px;
+}
+
+h1,h2,h3{
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 10px;
+}
+
+
+.col-5{
+  text-align: left;
+  text-indent: -500px;
+  text-anchor: start;
+  margin-left: 5px;
+}
+
+#title {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-top: 10px;
+  color: white;
+}
+
+.container-fluid2 {
+  background-color: rgba(85, 85, 85, 0.5);
+  margin: 0px;
+  margin-top: 0px;
+
+}
+
+#title2 {
+  font-size: 30px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 2px;
+  color: slateblue;
+}
+
+#container2 {
+  position: relative;
+  text-align: center;
+}
+
+#image-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 25px;
+  bottom : 500px;
+  text-align: left;
+  left: -80px;
+  font-size: 170px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-weight: 900;
+  background-attachment: fixed;
+	text-shadow: 3px 3px #ff0000;
+	margin-bottom: 40px;
+}
+
+#image-title2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 25px;
+  bottom : 500px;
+  text-align: left;
+  left: -80px;
+  font-size: 170px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-weight: 900;
+  background-attachment: fixed;
+	text-shadow: 3px 3px #f17209;
+	margin-bottom: 40px;
+}
+
+#image-title3 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 25px;
+  bottom : 500px;
+  text-align: left;
+  left: -80px;
+  font-size: 170px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-weight: 900;
+  background-attachment: fixed;
+	text-shadow: 5px 5px darkblue;
+	margin-bottom: 40px;
+}
+
+#image-title4 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 25px;
+  bottom : 400px;
+  text-align: left;
+  left: -80px;
+  font-size: 170px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-weight: 900;
+  background-attachment: fixed;
+	text-shadow: 5px 5px rgb(209, 130, 11);
+	margin-bottom: 40px;
+}
+
+#trans-block {
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 25px;
+}
+
+#image-para {
+  font-size: 35px;
+  position: absolute;
+  bottom: 450px;
+  left: -50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#image-para2 {
+  font-size: 35px;
+  position: absolute;
+  bottom: 400px;
+  left: -50px;
+  color: yellow;
+  text-shadow: 2px 2px brown;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar-title {
+    background-color: none;
+    border-radius: 18px;
+    margin: 1px;
+    padding: 15px;
+	font-size: 60px;
+	font-weight: 700;
+    position:relative;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	left: -30px;
+}
+
+#nav-bar-title:hover {
+  background-color: none;
+		color: brown;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #00aebb;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(211, 46, 46);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #05d817;
+  color: white;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+  }
+  .topnav input[type=text] {
+    border: 5px solid #ccc;  
+  }
+}
+
+
+
+  /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+  .divmid{
+    margin-left: 100px;
+    
+}
+
+
+  /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  /* Container needed to position the overlay. Adjust the width as needed */
+  /* .container {
+    position: relative;
+    width: 50%;
+  } */
+  
+  /* Make the image to responsive */
+  .image {
+    width: 50%;
+    height: auto;
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #5097a1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .5s ease;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  /* .container:hover .overlay {
+    transform: scale(1);
+  } */
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: rgb(255, 0, 0);
+    font-size: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  span {
+    border: none;
+    padding: 5px;
+  }
+  
+  .img1 {
+    float: right;
+  }
+  
+  .img2 {
+    float: right;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.textbox-highlight
+{
+  padding: 10px;
+  margin: 5px;
+  background-color: darkred;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  height: 120px;
+}  
+
+#detail-text {
+  color: lightsalmon;
+  margin: 10px;
+  padding: 10px;
+  
+}
+#detail-text:hover {
+  background-color: darkorange;
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  color: black;
+  opacity: 70%;
+}
+
+.textbox-highlight:hover {
+  background-color: red;
+  transition-duration: 0.4s;
+}
+  /* .container {
+    background-color: #e6e6e6;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 3px;
+  }
+   */
+
+  /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Top Button >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+
+
+
+
+  /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<For Footer>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+ 
+  .container2 {
+    background-color: black;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    position: relative;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+
+
+
+
+
+#navbar {
+	background-image: url("brown.jpg");
+	background-position: center center;
+}
+
+.social-media-icon {
+  margin: 10px;
+  margin-left: 25px;
+}
+
+#jumb {
+  margin: 0px;
+  padding: 20px;
+  background-color: rgba(139, 132, 132, 0.7);
+  color: black;
+  font-weight: 300;
+}
+
+#pizza-1 {
+  margin : 50px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+#pizza-card-grid {
+  margin: 50px;
+  padding: 25px;
+}
+
+#card-body {
+  color: black;
+}
+
+#card-body-trans {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.0);
+  margin: 28px;
+  font-family: Hack;
+  font-size: larger;
+  font-weight: 300;
+}
+#offer-text {
+  font-size: 35px;
+  margin-left: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Within Container */
+.zoom-within-container {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+.zoom-within-container-big {
+  height: 800px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+} 
+
+.zoom-within-container img {
+  transition: transform .8s ease;
+}
+.zoom-within-container:hover img {
+  transform: scale(1.5);
+}
+
+.zoom-within-container-big img {
+  transition: transform .8s ease;
+}
+.zoom-within-container-big:hover img {
+  transform: scale(1.5);
+}
+
+/* for gallery */
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container-gallery {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.fruit-card{
+  width: 150px;
+  background-color: white;
+  padding: 7px;
+  margin: 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.fruit-card:hover {
+  border : 10px solid yellow;
+  padding: 7px;
+  margin: 10px;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+
+#fruit-image {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  
+}
+
+#fruit-text {
+  width: 100px;
+  float: bottom;
+  margin : 5px;
+}
+
+#fast-drinks-card{
+  background-color: orange;
+  color: black;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin : 10px;
+  width: 220px;
+}
+
+#fast-drinks-card:hover {
+  background-color: rgb(224, 93, 5);
+  transition-duration: 0.5s;
+  color: white;
+}
+
+#drink-img:hover{
+  filter: brightness(1.2);
+}
+
+#contactus {
+  background-image :url("contact-main.jpg");
+  background-position: center center;
+background-size: 100%;}
+
+#aboutus-background {
+  background-image: url("aboutus-main.jpg");
+  background-size: 100%;
+}
+
+.intro-container{
+  background-image: url("aboutus-2.jpg");
+  background-size: 100%;
+  padding: 50px;
+  margin: 0px;
+  transition-duration: 0.8s;
+  background-image: center center;
+}
+
+.intro-container:hover {
+  background-size: 150%;
+  background-position: center center;
+  transition-duration: 0.8s;
+}
+
+#aboutus-caption {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 150px;
+  font-weight: 600;
+  text-shadow: -3px 3px darkred;
+}
+
+#aboutus-caption:hover {
+  background-color: rgba(20,20, 20, 0.8);
+  transition-duration: 0.8s;
+}
+
+#middle-text {
+  color: rgb(230, 55, 55);
+  text-shadow: 2px 2px black;
+  font-size: 55px;
+  padding: 10px;
+}
+
+#middle-text:hover {
+  padding: 10px;
+  background-color: rgba(238, 172, 51, 0.76);
+  color: black;
+  transition-duration: 0.8s;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.ourteam-box {
+  background-image: url("aboutus-3.jpg");
+  background-position: center center;
+  background-size: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+.drinks-box {
+  background-image: url("Drinks/pepsi-main-dark.jpg");
+  background-size: 100%;
+  background-position: center center;
+}
+
+.cake-box {
+  background-image: url("Cakes/cupcake10.jpeg");
+  background-size: 100%;
+  background-position: center center;
+}
+
+#under-text {
+  width : 500px;
+  padding: 10px;
+  margin: 2px;
+}
+
+#under-text:hover {
+  border-bottom: 4px solid orange;
+  background-color: rgba(207, 39, 24, 0.658);
+  transition-duration: .5s;
+  border-radius: 10px;
+}

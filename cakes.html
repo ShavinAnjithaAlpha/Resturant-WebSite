@@ -1,0 +1,379 @@
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="Home2.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+          <!-- nav bar for site -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="" width="200" height="100">
+              </a>
+              <a href="#" class="navbar-brand">
+                <div class="logo-card">
+                  <h3 id="nav-bar-title">OneLove Cafe</h3> 
+                </div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  
+
+                   <!-- foods page links -->
+                   <li class="nav-item">
+                    <a class="nav-link" href="pizza.html">Pizza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shorties.html">Shorteats</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="drinks.html">Drinks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cakes.html">Cakes</a>
+                  </li>
+                  <!-- foods pageg links -->
+
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Foods
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="shorties.html">
+                        <img src="burger-2.jfif" alt="" width="50" height="50">
+                          Shorties
+                        </a></li>
+                      <li><a class="dropdown-item" href="pizza.html">
+                        <img src="pizza-2.jfif" alt="" width="50" height="50">
+                        Pizza
+                      </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="drinks.html">
+                            <img src="drink-2.jfif" alt="" width="50" height="50">
+                            Drinks
+                        </a></li>
+                    </ul>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <button class="btn btn-primary btn-lg" type="button">Log In</button>
+                  <button class="btn btn-success btn-lg" type="button" style="margin-left : 15px;">Sign In</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+           <!-- main wallpaper of the page -->
+          <div class="row">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Cakes/cakes_main.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <div id="trans-block">
+                      <h1 id="image-title3" class="display-2">Cakes</h1>
+					<br>
+                      <p id="image-para">Get Happy from OneLovecafe.</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          
+         
+          <h1 class="display-1 text-start">Cakes Catogarize</h1>
+          <hr class="my-1">
+          <!-- cakes frid -->
+          <!-- pizza categorize grid -->
+        <div id="pizza-card-grid">
+          <!-- row 1 -->
+          <div class="row">
+            <div class="col-4">
+              <div class="container-fluid">
+                <!-- card 1 -->
+                <div class="card" style="width: 22rem;">
+                  <div class="zoom-within-container">
+                    <img src="Cakes/buttercake.png" class="card-img-top" alt="..." width="350" height="250">
+
+                  </div>
+                  <div class="card-body" id="card-body">
+                    <h3 class="card-title">Butter Cakes</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="light">
+                    <h5>Price <b>Rs.200.00 for 1Kg</b></h5>
+                    <h5>Discount <b>5% off</b></h5>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+                <!-- card  -->
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="container-fluid">
+                  <!-- card 1 -->
+                <div class="card" style="width: 22rem;">
+                  <div class="zoom-within-container">
+                    <img src="Cakes/chocalatecake2.jpg" class="card-img-top" alt="..." width="350" height="250">
+
+                  </div>                    <div class="card-body" id="card-body">
+                    <h3 class="card-title">Chocalate Cakes</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="light">
+                    <h5>Price <b>Rs.350.00 for 1Kg</b></h5>
+                    <h5>Discount <b>5% off</b></h5>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+                <!-- card  -->
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="container-fluid">
+                  <!-- card 1 -->
+                <div class="card" style="width: 22rem;">
+                  <div class="zoom-within-container">
+                    <img src="Cakes/fruitcake2.jpg" class="card-img-top" alt="..." width="350" height="250">
+
+                  </div>                    <div class="card-body" id="card-body">
+                    <h3 class="card-title">Fruit Cakes</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="light">
+                    <h5>Price <b>Rs.300.00 for 1Kg</b></h5>
+                    <h5>Discount <b>12% off</b></h5>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+                <!-- card  -->
+              </div>
+            </div>
+          </div>
+          <!-- row 2 -->
+          <div class="row mt-5">
+              <div class="col-4">
+                  <div class="container-fluid">
+                    <!-- card 1 -->
+                <div class="card" style="width: 22rem;">
+                  <div class="zoom-within-container">
+                    <img src="Cakes/coccanutcake.jpg" class="card-img-top" alt="..." width="350" height="250">
+
+                  </div>                    <div class="card-body" id="card-body">
+                    <h3 class="card-title">Cocunut Cakes</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="light">
+                    <h5>Price <b>Rs.250.00 for 1Kg</b></h5>
+                    <h5>Discount <b>10% off</b></h5>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+                <!-- card  -->
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="container-fluid">
+                    <!-- card 1 -->
+                <div class="card" style="width: 22rem;">
+                  <div class="zoom-within-container">
+                    <img src="Cakes/istockphoto-1294578109-170667a.jpg" class="card-img-top" alt="..." width="350" height="250">
+
+                  </div>
+                  <div class="card-body" id="card-body">
+                    <h3 class="card-title">Strobery Cakes</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="light">
+                    <h5>Price <b>Rs.1450.00 for 1Kg</b></h5>
+                    <h5>Discount <b>8.5% off</b></h5>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+                <!-- card  -->
+                  </div>
+              </div>
+              <div class="col-4">
+                <div class="container-fluid">
+                  <!-- card 1 -->
+              <div class="card" style="width: 22rem;">
+                <div class="zoom-within-container">
+                  <img src="Cakes/ribboncake.jpeg" class="card-img-top" alt="..." width="350" height="250">
+
+                </div>
+                <div class="card-body" id="card-body">
+                  <h3 class="card-title">Ribbon Cakes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <hr class="light">
+                  <h5>Price <b>Rs.280.00 for 1Kg</b></h5>
+                  <h5>Discount <b>8.5% off</b></h5>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+              <!-- card  -->
+                </div>
+              </div>
+          <!-- end of row -->
+          </div>
+           <!-- end of container -->
+        </div>
+        <!-- drinks grid -->
+          <!-- cakes grid -->
+
+        <div class="container-fluid" style="margin-left: 20px;">
+          <div class="row">
+            <h2 class="display-2 text-center">Get Dream Taste From Cup Cakes...</h2>
+            <hr class="my-1">
+            <h3>We have more than 20+ types cup cakes with different taste and differemt colors and designs.</h3>
+        </div>
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-6">
+              <div class="row">
+                <div class="container">
+                  <img src="Cakes/cupcake1.png" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake2.jpeg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake3.jpg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake4.jpeg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake5.jpg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake6.jpg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake7.jpeg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake8.jpeg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+                  <img src="Cakes/cupcake9.jpeg" alt="cupcake" style="width: 200px; height: 200px;" onclick="myFunction(this)">
+
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-6">
+              <div class="container-gallery">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+                <!-- Expanded image -->
+                
+                    <img src="" id="expandedImg"  style="height: 100%; width: 100%;">
+                
+  
+                <!-- Image text -->
+                <div id="imgtext"></div>
+              </div>
+            </div>
+          </div>
+  
+          </div>
+          
+        </div>
+        
+        
+        <div class="container-fluid padding">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2>Connect</h2>
+            </div>
+            <div class="col-12">
+              <a href="#"><img src="icons/facebook (1).png" alt="" class="social-media-icon" width="50" height="50"><i class="fa fa-faceobook"></i></a>
+              <a href="#"><img src="icons/instagram.png" alt="" class="social-media-icon" width="50" height="50"><i class="fa fa-faceobook"></i></a>
+              <a href="#"><img src="icons/twitter.png" alt="" class="social-media-icon" width="50" height="50"><i class="fa fa-faceobook"></i></a>
+              <a href="#"><img src="icons/whatsapp.png" alt="" class="social-media-icon" width="50" height="50"><i class="fa fa-faceobook"></i></a>
+              <a href="#"><img src="icons/youtube.png" alt="" class="social-media-icon" width="50" height="50"><i class="fab fa-faceobook"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="container-fluid padding">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <img src="logo.png" alt="" width="150" height="100">
+                <hr class="light">
+                <h4>About Us</h4>
+                <hr class="light">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia necessitatibus omnis expedita? Praesentium, facere autem.</p>
+
+              </div>
+              <div class="col-md-4">
+                <hr class="light">
+                <h5>Contact</h5>
+                <hr class="light">
+                <p> <b>Telephone</b><br> +94 95-57 14 756</p>
+                <p> <b>Mobile</b><br> +94 77-84 45 145</p>
+                <p> <b>Email</b>  onelovecafe@gmail.com</p>
+                <p><b>Address</b> <br>52/B, Cross Road,Ambalangoda.</p>
+              </div>
+              <div class="col-md-4">
+                <hr class="light">
+                <h5>Times And Days</h5>
+                <hr class="light">
+                <p>Monday   8am - 6pm</p>
+                <p>Tuesday   8am - 6pm</p>
+                <p>Wednesday   8am - 6pm</p>
+                <p>Thursday   8am - 6pm</p>
+                <p>Friday   8am - 6pm</p>
+                <hr class="my-2">
+                <p>Saturday   9am - 4pm</p>
+                <p>Sunday   9am - 3pm</p>
+              </div>
+              <div class="col-12">
+                <hr class="light">
+                <p>@copyright | www.OneLoveCafe.com | All Right reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- <script src="js/bootstrap.bundle.js"></script> -->
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      function myFunction(imgs) {
+          // Get the expanded image
+          var expandImg = document.getElementById("expandedImg");
+          // Get the image text
+          var imgText = document.getElementById("imgtext");
+          // Use the same src in the expanded image as the image being clicked on from the grid
+          expandImg.src = imgs.src;
+          // Use the value of the alt attribute of the clickable image as text inside the expanded image
+          imgText.innerHTML = imgs.alt;
+          // Show the container element (hidden with CSS)
+          expandImg.parentElement.style.display = "block";}
+
+    </script>
+</html>
